@@ -1,0 +1,61 @@
+-----HTML------
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Sura:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+            <h1>Lorem Ipsum</h1>
+            <article>
+                <h2>Lorem Ipsum Color</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et blanditiis ipsa amet reprehenderit minus asperiores aut deserunt qui quas pariatur facilis quo quia voluptates, officiis vitae ex aspernatur, illum recusandae!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iure reiciendis pariatur, nesciunt officia quod obcaecati laborum veniam ab! Voluptate, quidem quibusdam laborum ipsam voluptatum voluptates saepe totam maiores culpa.</p>
+            </article>
+    </section>
+</body>
+</html>
+
+
+------CSS-------
+
+body{
+    background-color:#f0f0f0;
+    color: #121212;
+    font-family: 'Montserrat',sans-serif;
+}
+section{
+    width: 80%;
+    margin: 5em auto;   
+    box-shadow: 0 0 .5em rgb(202, 202, 202);
+    background-color: white;
+    border-radius: 1em;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'Sura',serif;
+    margin-top: 0;
+    background-color: #34495e;
+    padding: 1em 1.1em;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+}
+
+article{
+    padding: 0 3em 3em 3em;
+}
+p{
+    font-size: 1.2rem;
+    line-height: 1.8em;
+}
+
+
+

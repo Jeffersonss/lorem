@@ -1,0 +1,41 @@
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+    background-color:#f0f0f0;
+    color: #121212;
+    font-family: 'Montserrat',sans-serif;
+}
+section{
+    width: 80%;
+    margin: 5em auto;   
+    box-shadow: 0 0 .5em rgb(202, 202, 202);
+    background-color: white;
+    border-radius: 1em;
+}
+header{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Sura',serif;
+    background-color: #34495e;
+    border-radius: .5em .5em 0 0;
+    padding: 1em 1.5em;
+}
+
+
+article{
+    margin-top: 2em;
+    padding: 0 3em 3em 3em;
+}
+
+h2{
+    font-size: 1.5rem;
+    margin-bottom: .67em;
+}
+
+p{
+    font-size: 1.2rem;
+    line-height: 1.8em;
+    margin-bottom: .4em;
+}
